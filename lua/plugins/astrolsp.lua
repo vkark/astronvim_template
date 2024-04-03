@@ -40,6 +40,14 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
+      "bashls",
+      "clangd",
+      "lua_ls",
+      "ruff_lsp",
+      "rust_analyzer",
+      "taplo",
+      "texlab",
+      "yamlls",
       -- "pyright"
     },
     -- customize language server configuration options passed to `lspconfig`
